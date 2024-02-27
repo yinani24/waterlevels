@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+div#tile{
+  font-family: 'Inter';
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  font-size: 16px;
+}
+
+div#part1{
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-right: 35px;
+}
+div#part2{
+  display: flex;
+  flex-direction: column;
+  flex-flow: column-reverse;
+  margin-right: 100px;
+}
+#img1{
+  width: 370px;
+  height: 230px;
+}
+div#head{
+  margin-top: -28px;
+  background-color: rgb(66, 145, 152);
+  height: 70px;
+  color: white;
+  font-size: 28px;
+  text-align: left;
+}
+p#Tinh{
+  padding-top: 15px;
+  font-family: 'Inter';
+  font-weight: bold;
+  margin-left: 100px;
+}
+p#NfText{
+  visibility: hidden;
+  margin-top: 60px;
+  margin-left: -100px;
+}
+#imgText{
+  margin-top: 10px;
+  font-size: 12px;
+  font-family: 'Inter';
+  font-weight: 400;
+  display: block;
+}
+#ButtonML{
+  margin-top: 5px;
+  font-family: 'Inter';
+  font-weight: 500;
+  height: 35px;
+  width: 135px;
+  background-color: rgb(66, 145, 152);
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+}
+div#BoxRed{
+  margin-top: 30px;
+  height: 100px;
+  width: 100px;
+  background-color: red;
+/*   display: 'none'; */
+  visibility: hidden;
+}
+.RedBox{
+  visibility: hidden;
+}
+#Choker{
+/*   display: flex;
+  flex-direction: column;
+  justify-content: flex-start; */
+  visibility: hidden;
+}
+#but{
+  height: 35px;
+  width: 220px;
+  text-align: left;
+/*   border-radius: 2px;
+  border-color: white; */
+}
+#MonthChange{
+  font-size: 16px;
+  color: rgb(66, 145, 152);
+  font-family: 'Inter';
+  font-weight: 600;
+}
+.link{
+  color: rgb(120, 199, 227); 
+  text-decoration: none;
+}
+p#SText{
+  margin-top: -5px;
+}
+.kali{
+  margin-top: 50px;
+/*   visibility: hidden; */
+  width: 500px;
+  height: 75%;
+  max-height: 500px;
+
+}
+
+/* #chart-container{
+  visibility: hidden;
+} */
+
+@media (max-width: 900px){
+  
+  div#tile{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  div#part1{
+    display: flex;
+    flex-drection: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 100px 0px 100px;
+  }
+  
+  div#part2{
+    display: flex;
+    flex-drection: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+/*   #img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  } */
+}
+
+@media (max-width: 480px){
+/*   #root{
+    width: 100%;
+  } */
+
+  div#root{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  div#head{
+/*     margin: auto; */
+    font-size: 20px;
+    self-align: center;
+  }
+  
+  div#tile{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    flex-wrap: wrap;
+    self-align: center;
+  }
+  div#part1{
+    font-size: 10px;
+    
+  }
+  div#part2{
+    font-size: 10px;
+  }
+/*   #img1{
+    margin: 0 auto;
+  } */
+  
+}
